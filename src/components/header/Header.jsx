@@ -15,10 +15,10 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={ME} alt="me" />
+          <img src={ME} style={{ borderRadius: "12rem 12rem 0 0" }} alt="me" />
         </div>
 
-        <a href="#contact" className="scroll_down">
+        <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
       </div>
