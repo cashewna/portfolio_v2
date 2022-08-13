@@ -29,37 +29,13 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <ul>
-                <li>
-                  <small>
-                    <a href="https://github.com/cashewna/marie">
-                      Rock Paper Scissors | MARIE assembly language
-                    </a>
-                  </small>
-                </li>
-
-                <li>
-                  <small>
-                    <a href="https://github.com/cashewna/GenshinImpact-Decent-Artifacts-Average-Runs">
-                      Genshin Impact Artifacts Calculator | Python
-                    </a>
-                  </small>
-                </li>
-
-                <li>
-                  <small>
-                    <a href="https://github.com/cashewna/portfolio">
-                      Portfolio v1 | HTML5, CSS3, JavaScript
-                    </a>
-                  </small>
-                </li>
-              </ul>
+              <small>6 Beginner Projects</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Hobbies</h5>
-              <small>Photography, Gaming, Music, Movie and TV</small>
+              <small>Media Consumption and Gaming</small>
             </article>
           </div>
 
