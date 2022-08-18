@@ -1,6 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.jpg";
+import IMG3 from "../../assets/portfolio3.jpeg";
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -12,7 +15,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="portfolio v1 image" />
           </div>
-          <h3>Portfolio_v1</h3>
+          <h3>Portfolio v1</h3>
           <a
             href="https://github.com/cashewna/portfolio"
             className="btn"
@@ -26,6 +29,34 @@ const Portfolio = () => {
             target="_blank"
           >
             Live Demo
+          </a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="portfolio v1 image" />
+          </div>
+          <h3>Genshin Impact Artifact Run Calculator</h3>
+          <a
+            href="https://github.com/cashewna/GenshinImpact-Decent-Artifacts-Average-Runs"
+            className="btn"
+            target="_blank"
+          >
+            Github
+          </a>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="portfolio v1 image" />
+          </div>
+          <h3>Rock Paper Scissors in Assembly</h3>
+          <a
+            href="https://github.com/cashewna/marie"
+            className="btn"
+            target="_blank"
+          >
+            Github
           </a>
         </article>
       </div>
