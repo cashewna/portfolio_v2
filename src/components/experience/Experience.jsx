@@ -5,20 +5,56 @@ import { BsPatchCheckFill } from "react-icons/bs";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Skills I Have</h5>
+      <h5>Skills</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container">
+        {/* Programming Languages */}
         <div className="experience__languages">
           <h3>Programming Languages</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill />
+              <h4>HTML5</h4>
+              <small className="text-light">Beginner</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>CSS3</h4>
+              <small className="text-light">Beginner</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>JavaScript</h4>
+              <small className="text-light">Beginner</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>Python</h4>
+              <small className="text-light">Beginner</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>Java</h4>
+              <small className="text-light">Beginner</small>
             </article>
           </div>
         </div>
 
         <div className="experience__techstacks"></div>
+        <h3>Tech Stacks</h3>
+        <div className="experience__content">
+          <article className="experience__details">
+            <BsPatchCheckFill />
+            <h4>TailwindCSS</h4>
+            <small className="text-light">Beginner</small>
+          </article>
+          <article className="experience__details">
+            <BsPatchCheckFill />
+            <h4>ReactJS</h4>
+            <small className="text-light">Beginner</small>
+          </article>
+        </div>
       </div>
     </section>
   );
