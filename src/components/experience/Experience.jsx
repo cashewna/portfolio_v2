@@ -9,9 +9,9 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
-        {/* Programming Languages */}
-        <div className="experience__languages">
-          <h3>Programming Languages</h3>
+        {/* Front End */}
+        <div className="experience__frontend">
+          <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -37,6 +37,27 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>ReactJS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>TailwindCSS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* End of Front End */}
+
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Python</h4>
                 <small className="text-light">Beginner</small>
               </div>
@@ -48,31 +69,11 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        {/* End of Programming Languages */}
-
-        <div className="experience__techstacks">
-          <h3>Tech Stacks</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>TailwindCSS</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ReactJS</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
