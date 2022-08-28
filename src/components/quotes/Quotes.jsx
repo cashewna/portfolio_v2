@@ -1,5 +1,33 @@
 import React from "react";
 import "./quotes.css";
+import AUTHOR1 from "../../assets/author1.jpeg";
+import AUTHOR2 from "../../assets/author2.jpeg";
+import AUTHOR3 from "../../assets/author3.webp";
+import AUTHOR4 from "../../assets/author4.webp";
+
+const data = [
+  {
+    avatar: AUTHOR1,
+    name: "Master Oogway",
+    quote:
+      "If you only do what you can do, you will never be more than you are now.",
+  },
+  {
+    avatar: AUTHOR2,
+    name: "Bruce Lee",
+    quote:
+      "I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.",
+    avatar: AUTHOR3,
+    name: "Terry Pratchett",
+    quote:
+      "Build a man a fire, he is warm for a night. Set a man on fire, he is warm for the rest of his life.",
+  },
+  {
+    avatar: AUTHOR4,
+    name: "Abraham Lincoln",
+    quote: "I am a slow walker, but I never walk back.",
+  },
+];
 
 const Quotes = () => {
   return (
@@ -8,15 +36,17 @@ const Quotes = () => {
       <h2>Quotes</h2>
 
       <div className="container quotes__container">
-        <article className="quote">
-          <div className="author">
-            <h5 className="author__name">Master Oogway</h5>
-            <small className="speech">
-              If you only do what you can do, you will never be more than you
-              are now.
-            </small>
-          </div>
-        </article>
+        {data.map(({ avatar, name, quote }, index) => {
+          return (
+            <article key={index} className="quote">
+              <div className="author__avatar">
+                <img src={avatar} alt={name} />
+              </div>
+              <h5 className="author__name">{name}</h5>
+              <small className="author__quote">{quote}</small>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
