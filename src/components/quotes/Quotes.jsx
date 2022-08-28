@@ -5,6 +5,12 @@ import AUTHOR2 from "../../assets/author2.jpeg";
 import AUTHOR3 from "../../assets/author3.webp";
 import AUTHOR4 from "../../assets/author4.webp";
 
+import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+
+import "swiper/swiper.min.css";
+import "swiper/modules/pagination/pagination.min.css";
+
 const data = [
   {
     avatar: AUTHOR1,
@@ -35,19 +41,19 @@ const Quotes = () => {
       <h5>Snippets</h5>
       <h2>Quotes</h2>
 
-      <div className="container quotes__container">
+      <Swiper className="container quotes__container">
         {data.map(({ avatar, name, quote }, index) => {
           return (
-            <article key={index} className="quote">
+            <SwiperSlide key={index} className="quote">
               <div className="author__avatar">
                 <img src={avatar} alt={name} />
               </div>
               <h5 className="author__name">{name}</h5>
               <small className="author__quote">{quote}</small>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
