@@ -41,7 +41,14 @@ const Quotes = () => {
       <h5>Snippets</h5>
       <h2>Quotes</h2>
 
-      <Swiper className="container quotes__container">
+      <Swiper
+        className="container quotes__container"
+        // install Swiper modules
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
         {data.map(({ avatar, name, quote }, index) => {
           return (
             <SwiperSlide key={index} className="quote">
