@@ -40,10 +40,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            blanditiis culpa, illo ratione, hic laboriosam et possimus aliquam
-            eaque dicta inventore laborum fugit eveniet, corporis tenetur
-            nesciunt qui est? Temporibus!
+            Aspiring software developer. Hobbies include playing video games, cooking, going to the gym, and
+            photography.
           </p>
 
           <a href="#contact" className="btn btn-primary">

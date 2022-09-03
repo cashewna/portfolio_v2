@@ -6,7 +6,7 @@ import AUTHOR3 from "../../assets/author3.webp";
 import AUTHOR4 from "../../assets/author4.webp";
 
 import { Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 
 import "swiper/swiper.min.css";
 import "swiper/modules/pagination/pagination.min.css";
