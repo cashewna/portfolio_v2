@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.webp";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { FiUsers } from "react-icons/fi";
@@ -40,8 +40,8 @@ const About = () => {
           </div>
 
           <p>
-            Aspiring software developer. Hobbies include playing video games, cooking, going to the gym, and
-            photography.
+            Junior Software Developer. Hobbies include playing video games, cooking,
+            going to the gym, managing my media server, and photography.
           </p>
 
           <a href="#contact" className="btn btn-primary">

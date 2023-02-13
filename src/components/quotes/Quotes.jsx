@@ -1,7 +1,7 @@
 import React from "react";
 import "./quotes.css";
-import AUTHOR1 from "../../assets/author1.jpeg";
-import AUTHOR2 from "../../assets/author2.jpeg";
+import AUTHOR1 from "../../assets/author1.webp";
+import AUTHOR2 from "../../assets/author2.webp";
 import AUTHOR3 from "../../assets/author3.webp";
 import AUTHOR4 from "../../assets/author4.webp";
 

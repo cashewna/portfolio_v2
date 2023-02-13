@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.png";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpeg";
+import IMG1 from "../../assets/portfolio1.webp";
+import IMG2 from "../../assets/portfolio2.webp";
+import IMG3 from "../../assets/portfolio3.webp";
 
 {
   /* Generate portfolio items from array using map method */
